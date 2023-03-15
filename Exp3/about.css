@@ -1,0 +1,35 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #ff9100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   color: #023b6d;
+   transition: width 7s;
+ }
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #023b6d;
+}
+
+.container:hover {
+  width: 300px;
+}
